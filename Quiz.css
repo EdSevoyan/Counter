@@ -1,0 +1,76 @@
+.Quiz {
+    width: 100%;
+    height: 100vh;
+    background: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.game {
+    width: 40%;
+    height: 350px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.ul > div {
+    width: 150%;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 3px;
+}
+
+.ul > div:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.progress {
+    width: 80%;
+    height: 30px;
+    border: 1px solid blue;
+    border-radius: 15px;
+}
+
+.progress-bar {
+    height: 30px;
+    background: blue;
+    border-radius: 15px;
+}
+
+.result {
+    width: 40%;
+    height: 350px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.result > img { 
+    width: 150px;
+    height: 150px;
+}
+
+.result > h2 {
+    color: black;
+    font-size: 18px;
+}
+
+.result > a >  button {
+    background: deeppink;
+    border: none;
+    color: black;
+}
